@@ -19,6 +19,16 @@ mysql -u root -p bsale_test_development < remote_test.sql
 ```
 Configurar `config/database.yml` con los datos particulares para acceder al servicio MySQL.
 
+## Ejecución
+Instalar la aplicación:
+```bash
+bundle install --path vendor/bundle
+```
+Realizada la población de la base de datos, se puede ejecutar la aplicación:
+```bash
+bin/rails server
+```
+
 ===
 
 ## Estructura JSON:
