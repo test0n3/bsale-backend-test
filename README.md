@@ -29,7 +29,7 @@ Realizada la población de la base de datos, se puede ejecutar la aplicación:
 bin/rails server
 ```
 
-===
+---
 
 ## Estructura JSON:
 
